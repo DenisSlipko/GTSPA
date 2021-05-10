@@ -18,7 +18,7 @@ function Footer() {
         <div className="contact-sections">
           <div className="footer-section contacts">
             {/* <p className="footer-menu-el">grandtour11@gmail.com</p> */}
-            <p className="footer-menu-el phone">+38 (067) 749-80-55</p>
+            <p className="footer-menu-el phone"></p>
             {/* <p className="footer-menu-el">Пн-Пт с 9:00 до 18:00</p> */}
           </div>
 
