@@ -1,0 +1,222 @@
+.home-container {
+  display: flex;
+  background-image: url("../img/backgroundHP.jpg");
+  background-size: cover;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 100%;
+  width: 100%;
+  margin-top: -70px;
+  z-index: 1;
+}
+.background {
+  height: 800px;
+  width: 100%;
+  margin: 0;
+}
+
+.offer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 320px;
+}
+.offer-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+}
+.offer-subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 40px;
+}
+.name-input {
+  border: 1px solid #a7a7a7;
+  margin-bottom: 16px;
+  height: 40px;
+  padding-left: 16px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.phone-input {
+  border: 1px solid #a7a7a7;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 16px;
+  height: 40px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.coment-input {
+  border: 1px solid #a7a7a7;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 16px;
+  min-height: 80px;
+  padding-left: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding-top: 11px;
+  width: 49%;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.btn-offer-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btn-offer-send {
+  background: linear-gradient(90deg, #52858f 0%, #75c8bf 100%);
+  font-family: "Lato", sans-serif;
+  border: none;
+  height: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-bottom: 16px;
+  padding: 0 45px;
+}
+.subtitle-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #a7a7a7;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  width: 50%;
+  margin-left: 40px;
+}
+.carousel-container {
+  height: 800px;
+}
+
+.btn-primary {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: rgb(146, 145, 145);
+  border-color: rgb(146, 145, 145);
+}
+.btn.main {
+  background: linear-gradient(90deg, #52858f 0%, #75c8bf 100%);
+  color: white;
+  padding: 11px 23px;
+  border: none;
+  border-radius: 0;
+}
+.text {
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-top: 260px;
+  margin-left: 200px;
+}
+.pre-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+.post-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 85px;
+  line-height: 102px;
+}
+.carousel-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media (max-width: 768px) {
+  .text {
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .offer-container {
+    padding: 0 150px;
+  }
+}
+@media (max-width: 768px) {
+  .text {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  .pre-title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .post-title {
+    font-size: 16px;
+  }
+  .btn.main {
+    font-size: 14px;
+  }
+  .main-title {
+    font-size: 40px;
+  }
+  .offer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 16px;
+  }
+  .input-container {
+    flex-direction: column;
+  }
+  .btn-offer-wrapper {
+    flex-direction: column;
+  }
+  .first-input-wrapper {
+    width: 100%;
+  }
+  .coment-input {
+    width: 100%;
+  }
+  .btn-offer-send {
+    width: 100%;
+  }
+  .subtitle-btn {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
